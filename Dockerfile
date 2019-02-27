@@ -7,7 +7,7 @@ ENV pytest_version=4.0.1 \
     pytest_rerun=6.0 \
     selenium_version=3.141.0 \
     PyYAML_version=3.13 \
-    chromedriver_version=2.45
+    chromedriver_version=73.0.3683.20
 
 RUN apk add --no-cache unzip chromium chromium-chromedriver python3-dev \
     && pip3 install --no-cache-dir allure-pytest==$allure_version \
